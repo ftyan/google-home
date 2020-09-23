@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, sans-serif;
+
+}
+
+/*HEADING, MENU OPTION*/
+header{
+    left: 0;
+    position: fixed;
+    top: 0;
+    margin-top: 10px;
+    width: 100%;
+    line-height: 24px;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+}
+/*remove formatting*/
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*inline viewing*/
+header li{
+    display: inline-block;
+    padding: 0px 20px 0 20px;
+}
+#navtop{
+    display: flex;/*invoke flex*/
+    justify-content: space-between;/*one at start one at end*/
+}
+/*Sign in button, copied using developer tools*/
+#sibtn{
+    background-color: #4285f4;
+    color: #fff;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    padding: 0 12px;
+    line-height: 28px;
+}
+
+/*MAIN ELEMENT*/
+main{
+    left: 0;
+    height: 90vh;/*centering only works like this*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;/*centers vertically*/
+    justify-content: center;/*centers horizontally*/
+}
+#searchbox{
+    margin-top: 40px;
+    line-height: 34px;
+}
+#srcbx{
+    border-radius: 24px;
+    width: 100%;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    width: 482px;
+}
+/*search buttons, copied from dev tools*/
+#srcbtn{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+/*FOOTER, MENU OPTION*/
+footer{    
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    line-height: 40px;
+    color: #5f6368;
+    font-size: 14px;
+}
+#navbot{
+    display: flex;/*invoke flex*/
+    justify-content: space-between;/*one at start one at end*/
+}
+/*remove formatting*/
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*inline viewing*/
+footer li{
+    display: inline-block;
+    padding: 0px 20px 0 20px;
+}
